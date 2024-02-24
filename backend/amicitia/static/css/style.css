@@ -12,3 +12,8 @@
     --shade4: #d0b0bb;
 
 }
+.column {
+    background-color: #2ecc71;
+    width: 33%;
+    height: 1000px;
+  }
