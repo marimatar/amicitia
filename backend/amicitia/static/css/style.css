@@ -12,13 +12,22 @@
     --shade4: #d0b0bb;
 
 }
-.staticColumn {
+.leftColumn {
     background-color: #2ecc71;
-    width: 10%;
+    width: 30%;
     height: 1000px;
-  }
-.CenterColumn {
+}
+.rightColumn {
     background-color: #2ecc71;
-    width: 33%;
+    width: 20%;
     height: 1000px;
+}
+.centerColumn {
+    background-color: #2ecc71;
+    width: 50%;
+    height: 1000px;
+}
+.matchingPic {
+    width: 80%;
+    height: auto;
 }
