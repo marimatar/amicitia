@@ -1,8 +1,5 @@
-/* hover color: #fe62ad 
-    standard color theme : #ffcde4
-    
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-*/
 :root{
     --primary-color:#facce2 ;
     --secondary-color:#ed6ba9;
@@ -10,6 +7,8 @@
     --shade2: #efb1c9;
     --shade3:#c78faa;
     --shade4: #d0b0bb;
+    --shade5:#915874;
+    --shade6:#ba5686;
 
 }
 .leftColumn {
@@ -33,6 +32,10 @@
     width:600px;
     height: 500px;
 
+}
+
+body{
+	font-family: 'Anonymous Pro', monospace;
 }
 
 
