@@ -9,9 +9,34 @@
     --shade4: #d0b0bb;
     --shade5:#915874;
     --shade6:#ba5686;
+}
+.topNav{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--primary-color);
+}
+.navContent {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: var(--shade6);
+}
 
-
-
+.fa-home{
+    position: absolute;
+    right: 20px;
+    font-size:larger;
+    top: 50%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--shade6);
 }
 body{
 	margin: 0;
