@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+:root {
+    --primary-color: #facce2;
+    --secondary-color: #ed6ba9;
+    --shade1: #db9dbd;
+    --shade2: #efb1c9;
+    --shade3: #c78faa;
+    --shade4: #d0b0bb;
+    --shade5: #915874;
+    --shade6: #ba5686;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Anonymous Pro', monospace;
+    background: linear-gradient(to bottom, var(--secondary-color), var(--shade2), var(--primary-color));
+}
+
+.gradient-border {
+    border: 3px solid;
+    border-image: linear-gradient(to right, var(--shade4), rgba(166, 193, 238, 1)) 1;
+    padding: 10px;
+    box-sizing: border-box; 
+}
